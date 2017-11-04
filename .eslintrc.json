@@ -1,0 +1,15 @@
+{
+	"root": true,
+	"extends": "wpcalypso",
+	"parserOptions": {
+        "ecmaVersion": 6
+    },
+	"env": {
+		"node": true,
+		"mocha": true
+	},
+	"rules": {
+		"arrow-parens": "error",
+		"max-len": [ "error", { "code": 120 } ]
+	}
+}

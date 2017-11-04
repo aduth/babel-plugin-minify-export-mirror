@@ -1,0 +1,33 @@
+{
+  "name": "babel-plugin-minify-export-mirror",
+  "version": "1.0.0",
+  "description": "Babel plugin for minifying initial string values for module exports of the same name",
+  "main": "index.js",
+  "scripts": {
+    "mocha": "mocha",
+    "lint": "eslint index.js test",
+    "test": "concurrently \"npm run mocha\" \"npm run lint\""
+  },
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "key-mirror",
+    "keymirror"
+  ],
+  "author": {
+    "name": "Andrew Duthie",
+    "email": "andrew@andrewduthie.com",
+    "url": "https://andrewduthie.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-traverse": "^6.26.0",
+    "chai": "^4.1.2",
+    "concurrently": "^3.5.0",
+    "eslint": "^4.10.0",
+    "eslint-config-wpcalypso": "^1.2.0",
+    "eslint-plugin-wpcalypso": "^4.0.1",
+    "mocha": "^4.0.1"
+  }
+}
