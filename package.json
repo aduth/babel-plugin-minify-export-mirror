@@ -8,6 +8,9 @@
     "lint": "eslint index.js test",
     "test": "concurrently \"npm run mocha\" \"npm run lint\""
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "babel",
     "babel-plugin",
